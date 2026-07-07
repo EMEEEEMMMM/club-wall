@@ -255,6 +255,24 @@ export default function ClubDetail() {
                       </div>
                     </div>
                   )}
+
+                  {club.cpQrcodes.length > 0 && (
+                    <div className="mt-5 border-t border-white/10 pt-5">
+                      <h3 className="mb-3 text-xs font-semibold uppercase tracking-wider text-white/50">
+                        社长微信 · Club President
+                      </h3>
+                      <div className="flex flex-col gap-3">
+                        {club.cpQrcodes.map((qr, i) => (
+                          <img
+                            key={qr}
+                            src={asset(qr)}
+                            alt={`${club.name} 社长微信 ${i + 1}`}
+                            className="w-full rounded-lg bg-white p-2"
+                          />
+                        ))}
+                      </div>
+                    </div>
+                  )}
                 </aside>
               </div>
             </div>
