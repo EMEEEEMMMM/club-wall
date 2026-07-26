@@ -112,7 +112,7 @@ export default function ClubPreviewModal({ club, onClose, onOpenFull }: ClubPrev
 
           {club.contact?.trim() && (
             <p className="mt-4 text-sm text-white/60">
-              <span className="font-semibold text-white/80">联系方式 · Contact：</span> {club.contact}
+              <span className="font-semibold text-white/80">微信 · Contact：</span> {club.contact}
             </p>
           )}
 

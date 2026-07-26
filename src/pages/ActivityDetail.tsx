@@ -204,7 +204,7 @@ export default function ActivityDetail() {
                 {/* c) Recruitment */}
                 <InfoCard icon={<QrCode className="h-3.5 w-3.5" />} label="招募联系" color={color}>
                   <div>
-                    <span className="text-xs text-white/40">联系方式</span>
+                    <span className="text-xs text-white/40">微信</span>
                     <pre className="mt-1 whitespace-pre-wrap text-sm leading-relaxed text-white/75 font-sans">
                       {activity.contact}
                     </pre>
