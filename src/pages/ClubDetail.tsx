@@ -232,7 +232,7 @@ export default function ClubDetail() {
                     </div>
                     {club.contact?.trim() && (
                       <div>
-                        <dt className="text-white/40">联系 Contact</dt>
+                        <dt className="text-white/40">微信 Contact</dt>
                         <dd className="text-white">{club.contact}</dd>
                       </div>
                     )}
